@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    min-height: 100vh;
+  }
+  
+  .main {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  
+  .header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  
+  .menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Logo Google */
+  .logo img {
+    width: 200px;
+    margin: 20px 0;
+  }
+  
+  /* Barre de recherche */
+  .search-bar {
+    margin: 30px auto;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #f1f3f4;
+  }
+  
+  /* Pied de page */
+  .footer {
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-content {
+    display: fixed;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #5f6368;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+ 
+
+.nav {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+  }
+  
+  
+  .nav a {
+    color: #5f6368; 
+    text-decoration: none; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  .nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  
+  .menu {
+    font-size: 18px; 
+    cursor: pointer; 
+  }
+  
+  
+  .nav {
+    border: none; 
+  }
+  
+  footer {
+    background-color: #f1f1f1; /* Couleur de fond (exemple) */
+    text-align: center; /* Centre le texte */
+    padding: 10px;
+    height: 50px;
+    position: fixed; /* Reste fixe à l'écran */
+    bottom: 0; /* Positionne en bas de la fenêtre */
+    width: 100%; /* Prend toute la largeur de la fenêtre */
+    z-index: 10; /* S'assure que le footer est au-dessus du contenu */
+  }
+  
+  
+  
